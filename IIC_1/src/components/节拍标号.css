@@ -1,0 +1,765 @@
+.num0{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 154px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num1{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 436px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num2{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 718px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num3{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 1000px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num4{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 1282px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num5{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 1564px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num6{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 1836px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num7{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 2118px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num8{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 2400px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num9{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 2682px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num10{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 2964px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num11{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 3236px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num12{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 3518px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num13{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 3800px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num14{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 4084px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num15{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 4364px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num16{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 4636px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num17{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 4918px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num18{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 5200px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num19{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 5482px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num20{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 5764px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num21{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 6036px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num22{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 6318px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num23{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 6600px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num24{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 6882px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num25{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 7164px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num26{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 7436px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num27{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 7718px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num28{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 8000px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num29{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 8282px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num30{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 8564px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num31{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 8836px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num32{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 9118px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num33{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 9400px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num34{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 9682px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num35{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 9962px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num36{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 10236px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num37{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 10518px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num38{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 10800px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num39{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 10800px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num40{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 11082px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num41{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 11364px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num42{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 11636px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num43{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 11918px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num44{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 12200px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num45{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 12482px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num46{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 12764px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num47{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 13036px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num48{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 13318px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num49{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 13600px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}
+.num50{
+position: absolute;
+width: 8px;
+height: 16px;
+left: 13882px;
+top: 184px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #BFBFBF;
+}

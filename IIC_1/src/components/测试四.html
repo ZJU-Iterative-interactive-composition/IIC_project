@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<body>
+<div v-for="i in 200" class="sever_box2">
+            <div :class="sstt[a]">
+              <img :src="i.imgs" alt=""/>
+              <router-link :to="i.url">
+                <span>{{i.title}}</span>
+              </router-link>
+              <p>{{i.english}}</p>
+            </div>
+          </div>
+
+
+
+<script>
+  var vm= new Vue({
+    el:"#app",
+    data:{
+ sstt: [
+          "ss1",
+          "ss2",
+          "ss3",
+          "ss4",
+        ]
+    },
+    methods:{
+      Changecolor: function (){
+        this.isActive=!this.isActive;
+        console.log('click');
+        }
+      },
+       data: {
+      return {
+        sstt: [
+          "ss1",
+          "ss2",
+          "ss3",
+          "ss4",
+        ]
+      }
+  });
+</script>
+</body>
+<style>
+  .ss1{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 0px;
+top: 204px;
+
+background: #000000;
+border: 1px solid #A9A9A9;
+box-sizing: border-box;
+  }
+  .ss2{
+    width: 150px;
+height: 30px;
+left: 800px;
+top: 600px;
+
+background: #000000;
+border: 1px solid #A9A9A9;
+box-sizing: border-box;
+  }
+  .ss3{
+        width: 150px;
+height: 30px;
+left: 10000px;
+top: 204px;
+
+background: #000000;
+border: 1px solid #A9A9A9;
+box-sizing: border-box;
+  }
+*{
+  margin:0;
+  padding:0;
+}
+
+</style>
+</html>

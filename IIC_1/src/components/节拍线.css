@@ -1,0 +1,398 @@
+/*下面是节拍棋盘分割线（竖）*/
+.Beat{
+  z-index: 20;
+}
+
+.I{
+position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 280px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.H{
+position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 280px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.G{
+position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 280px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.F{
+position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 280px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.E{
+   position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 70px;
+      top:-2px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+
+}
+.D{
+   position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 70px;
+      top:-2px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+
+}
+.C{
+      position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 140px;
+        top:-2px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+
+}
+.B{
+   position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 70px;
+      top:-2px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+
+}
+.A{
+  position: relative;
+      width: 0px;
+      height: 2170px;
+      left: 70px;
+      top:-2px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat1{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 220px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat2{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 780px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat3{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 1340px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat4{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 1900px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat5{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 2460px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat6{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 3020px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat7{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 3580px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat8{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 4140px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat9{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 4700px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat10{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 5260px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat11{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 5820px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat12{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 6380px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat13{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 6940px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat14{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 7500px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat15{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 8060px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat16{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 8620px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat17{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 9180px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat18{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 9740px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat19{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 10300px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat20{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 10860px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat21{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 11420px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat22{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 11980px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat23{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 12540px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat24{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 13100px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.dbeat25{
+ position: absolute;
+      width: 0px;
+      height: 2170px;
+      left: 13660px;
+      top: 190px;
+
+      border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.pentabeat1{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left: 430px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat2{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:1830px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat3{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:3230px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat4{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:4630px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat5{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:6030px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat6{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:7430px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat7{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:8830px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat8{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:10230px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat9{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:11630px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.pentabeat10{
+position: absolute;
+width: 0px;
+height: 2170px;
+      left:13030px;
+      top: 180px;
+
+      border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+

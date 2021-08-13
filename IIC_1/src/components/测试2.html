@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+ <div class="test" v-bind:class="{active:isActive}" v-on:click = "Changecolor"
+      style="width:200px;height:200px;text-align:center;line-height:200px;">
+   <div >click me</div>
+   hivue
+ </div>
+</div>
+<script>
+  var vm= new Vue({
+    el:"#app",
+    data:{
+      isActive:false,
+    },
+    methods:{
+      Changecolor: function (){
+        this.isActive=!this.isActive;
+        console.log('click');
+        }
+      }
+  });
+</script>
+<style>
+  .test{font-size:30px;background:#127121}
+  .active{
+    background:#FF0000;
+  }
+</style>
+</body>
+</html>

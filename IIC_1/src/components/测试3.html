@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>div100</title>
+        <style>
+            .black{
+                  position: absolute;
+                  width: 70px;
+                  height: 20px;
+                  left: 154px;
+                  top: 208px;
+                   background: #39404F;
+                  z-index: 100;
+            }
+        </style>
+        <script>
+            window.onload = function(){
+                var aDd = document.getElementsByTagName('dd');
+
+                var str = "";
+                for(var i = 0,j = 0;i<200;i++ ){
+                    str += "<dd class='black'>"+ "</dd>";
+                }
+                document.body.innerHTML = str;
+
+
+                for(var i = 0;i<200;i++){
+                    aDd[i].style.left = (i*70+154) + "px";
+                        aDd[i].style.top = 208 + "px";
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+

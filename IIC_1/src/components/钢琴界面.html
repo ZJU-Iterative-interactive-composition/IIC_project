@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>钢琴界面</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="循环组件.css">
+  <link rel="stylesheet" href="黑键.css">
+  <link rel="stylesheet" href="白键.css">
+  <link rel="stylesheet" href="音阶.css">
+  <link rel="stylesheet" href="节拍线.css">
+  <link rel="stylesheet" href="节拍标号.css">
+  <link rel="stylesheet" href="矩形平铺.css">
+
+
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+
+  <div id="app">
+<!--    上层元素实现-->
+    <div id="top">
+    <img :src='imgSrc7' class='img7' alt="">
+<!--    曲目11-->
+      <p class="sn">曲目11<p/>
+    <img :src='imgSrc13' class='img13' alt="">
+<!--竖线分割-->
+<div class="verticalBar1"></div>
+     <img :src='imgSrc8' class='img8' alt="">
+<!--    主旋律轨道-->
+     <p class="mst">{{ mainSoundTrack }}<p/>
+    <!--竖线分割-->
+<div class="verticalBar2"></div>
+<!--    BPM-->
+     <p class="bpm">{{ BPM }}<p/>
+<!--    Beat Rate-->
+     <p class="br">{{ BR }}<p/>
+<!--    快退-->
+     <img :src='imgSrcUnion1' class='imgunion1' alt="">
+<!--    重放-->
+     <img :src='imgSrc1' class='img1' alt="">
+<!--    下一首-->
+     <img :src='imgSrcvc2' class='vc2' alt="">
+<!--    快进-->
+     <img :src='imgSrcUnion2' class='imgunion2' alt="">
+<!--      竖线分割-->
+      <div class="verticalBar3"></div>
+<!--      编辑-->
+      <img :src='imgSrc3' class='img3' alt="">
+<!--      移动-->
+      <img :src='imgSrc4' class='img4' alt="">
+<!--      锁-->
+      <img :src='imgSrc6' class='img6' alt="">
+<!--      AI Continue Write-->
+      <p class="aicw">{{ aicw }}<p/>
+<!--       Music Theory Polish-->
+      <p class="mtp">{{ mtp }}<p/>
+<!--         AI Modify-->
+      <p class="aim">{{ aim }}<p/>
+<!--      竖线分割-->
+      <div class="verticalBar4"></div>
+<!--      保存-->
+      <img :src='imgSrc2' class='img2' alt="">
+<!--      下载-->
+      <img :src='imgSrc5' class='img5' alt="">
+<!--      底部长分割线-->
+      <div class="line23"></div>
+<!--      所有矩形框-->
+      <div class="rec115"></div>
+      <div class="rec113"></div>
+      <div class="rec123"></div>
+      <div class="rec114"></div>
+      <div class="rec117"></div>
+      <div class="rec118"></div>
+      <div class="rec128"></div>
+      <div class="rec119"></div>
+      <div class="rec120"></div>
+      <div class="rec121"></div>
+      <div class="rec126"></div>
+      <div class="rec127"></div>
+  </div>
+<!--    至此，上层元素实现结束-->
+
+
+<!--    钢琴实现-->
+ <div class="piano">
+<!--      第一个白键-->
+      <div class="rec27"></div>
+      <div class="rec28"></div>
+      <div class="rec29"></div>
+      <div class="rec30"></div>
+
+      <div class="rec31"></div>
+      <div class="rec32"></div>
+      <div class="rec33"></div>
+
+      <div class="rec34"></div>
+      <div class="rec35"></div>
+      <div class="rec36"></div>
+      <div class="rec37"></div>
+
+      <div class="rec38"></div>
+      <div class="rec39"></div>
+      <div class="rec40"></div>
+
+      <div class="rec41"></div>
+      <div class="rec42"></div>
+      <div class="rec43"></div>
+      <div class="rec44"></div>
+
+      <div class="rec45"></div>
+      <div class="rec46"></div>
+      <div class="rec47"></div>
+
+      <div class="rec48"></div>
+      <div class="rec49"></div>
+      <div class="rec50"></div>
+      <div class="rec51"></div>
+
+      <div class="rec52"></div>
+      <div class="rec53"></div>
+      <div class="rec54"></div>
+
+      <div class="rec55"></div>
+      <div class="rec56"></div>
+      <div class="rec57"></div>
+      <div class="rec58"></div>
+
+      <div class="rec59"></div>
+      <div class="rec60"></div>
+      <div class="rec61"></div>
+
+      <div class="rec62"></div>
+      <div class="rec63"></div>
+      <div class="rec64"></div>
+      <div class="rec65"></div>
+
+      <div class="rec66"></div>
+      <div class="rec67"></div>
+      <div class="rec68"></div>
+
+      <div class="rec69"></div>
+      <div class="rec70"></div>
+      <div class="rec71"></div>
+      <div class="rec72"></div>
+
+      <div class="rec73"></div>
+      <div class="rec74"></div>
+      <div class="rec75"></div>
+
+      <div class="rec76"></div>
+      <div class="rec77"></div>
+      <div class="rec78"></div>
+      <div class="rec79"></div>
+
+      <div class="rec80"></div>
+      <div class="rec81"></div>
+      <div class="rec82"></div>
+
+      <div class="rec83"></div>
+      <div class="rec84"></div>
+      <div class="rec85"></div>
+      <div class="rec86"></div>
+
+      <div class="rec87"></div>
+      <div class="rec88"></div>
+      <div class="rec89"></div>
+
+      <!--      第一个黑键-->
+      <div class="reb100"></div>
+      <div class="reb101"></div>
+      <div class="reb102"></div>
+
+      <div class="reb103"></div>
+      <div class="reb104"></div>
+
+      <div class="reb105"></div>
+      <div class="reb106"></div>
+      <div class="reb107"></div>
+
+      <div class="reb108"></div>
+      <div class="reb109"></div>
+
+      <div class="reb110"></div>
+      <div class="reb111"></div>
+      <div class="reb112"></div>
+
+      <div class="reb113"></div>
+      <div class="reb114"></div>
+
+      <div class="reb115"></div>
+      <div class="reb116"></div>
+      <div class="reb117"></div>
+
+      <div class="reb118"></div>
+      <div class="reb119"></div>
+
+      <div class="reb120"></div>
+      <div class="reb121"></div>
+      <div class="reb122"></div>
+
+      <div class="reb123"></div>
+      <div class="reb124"></div>
+
+      <div class="reb125"></div>
+      <div class="reb126"></div>
+      <div class="reb127"></div>
+
+      <div class="reb128"></div>
+      <div class="reb129"></div>
+
+      <div class="reb130"></div>
+      <div class="reb131"></div>
+      <div class="reb132"></div>
+
+      <div class="reb133"></div>
+      <div class="reb134"></div>
+
+      <div class="reb135"></div>
+      <div class="reb136"></div>
+      <div class="reb137"></div>
+
+      <div class="reb138"></div>
+      <div class="reb139"></div>
+
+      <div class="reb140"></div>
+      <div class="reb141"></div>
+      <div class="reb142"></div>
+
+      <div class="reb143"></div>
+      <div class="reb144"></div>
+    </div>
+
+<div class="音阶标号">
+  <p class="C8">C8<p/>
+  <p class="C7">C7<p/>
+  <p class="C6">C6<p/>
+  <p class="C5">C5<p/>
+  <p class="C4">C4<p/>
+  <p class="C3">C3<p/>
+  <p class="C2">C2<p/>
+  <p class="C1">C1<p/>
+  <p class="C0">C0<p/>
+</div >
+<!--下面是节拍棋盘分割线（竖）-->
+    <!--    标尺实现-->
+<!--      横纵线-->
+
+<div class="lineH" ></div>
+<div class="lineV"></div>
+
+    <!--    标尺节拍标号-->
+    <div class="节拍标号">
+  <p class="num0">0</p>
+  <p class="num1">1</p>
+  <p class="num2">2</p>
+  <p class="num3">3</p>
+  <p class="num4">4</p>
+  <p class="num5">5</p>
+  <p class="num6">6</p>
+  <p class="num7">7</p>
+  <p class="num8">8</p>
+  <p class="num9">9</p>
+  <p class="num10">10</p>
+  <p class="num11">11</p>
+  <p class="num12">12</p>
+  <p class="num13">13</p>
+  <p class="num14">14</p>
+  <p class="num15">15</p>
+  <p class="num16">16</p>
+  <p class="num17">17</p>
+  <p class="num18">18</p>
+  <p class="num19">19</p>
+  <p class="num20">20</p>
+  <p class="num21">21</p>
+  <p class="num22">22</p>
+  <p class="num23">23</p>
+  <p class="num24">24</p>
+  <p class="num25">25</p>
+  <p class="num26">26</p>
+  <p class="num27">27</p>
+  <p class="num28">28</p>
+  <p class="num29">29</p>
+  <p class="num30">30</p>
+  <p class="num31">31</p>
+  <p class="num32">32</p>
+  <p class="num33">33</p>
+  <p class="num34">34</p>
+  <p class="num35">35</p>
+  <p class="num36">36</p>
+  <p class="num37">37</p><p class="num30">30</p>
+  <p class="num38">31</p>
+  <p class="num39">32</p>
+  <p class="num40">40</p>
+  <p class="num41">41</p>
+  <p class="num42">42</p>
+  <p class="num43">43</p>
+  <p class="num44">44</p>
+  <p class="num45">45</p>
+  <p class="num46">46</p>
+  <p class="num47">47</p>
+  <p class="num48">48</p>
+  <p class="num49">49</p>
+  <p class="num50">50</p>
+    </div>
+<!--    平铺实现所有矩形-->
+ <script>
+            window.onload = function(){
+                var aDd = document.getElementsByTagName('dd');
+
+                var str = "";
+                for(var i = 0,j = 0;i<200;i++ ){
+                    str += "<dd class='black'v-bind:class=\"{chosen:isChosen}\" v-on:click = \"Changecolor\">"+ "</dd>";
+                }
+                document.body.innerHTML += str;
+
+
+                for(var i = 0;i<200;i++){
+                    aDd[i].style.left = (i*70+154) + "px";
+                        aDd[i].style.top = 208 + "px";
+                }
+
+            }
+        </script>
+    <!--    两节一行代码-->
+    <div id="BEAT">
+    <div class="dbeat1">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat2">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat3">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat4">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat5">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat6">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat7">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat8">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat9">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat10">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat11">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat12">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat13">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat14">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat15">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat16">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat17">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat18">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat19">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat20">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat21">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat22">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat23">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat24">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dbeat25">
+      <div class="A">
+        <div class="B">
+          <div class="C">
+            <div class="D">
+              <div class="E">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--      还需要标记线，这些线较普通线明显且长一些-->
+<!--      这里选择五节一组-->
+    <div class="pentabeat1">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="pentabeat2">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="pentabeat3">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="pentabeat4">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="pentabeat5">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="pentabeat6">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="pentabeat7">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="pentabeat8">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="pentabeat9">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="pentabeat10">
+        <div class="F">
+          <div class="G">
+            <div class="H">
+              <div class="I">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+<script>
+  var app = new Vue({
+    el:"#app",
+    data:{
+       isChosen:false,
+       imgSrc7:'../../static/image 7.svg',
+       imgSrc8:'../../static/image 8.svg',
+       imgSrc13:'../../static/image 13.svg',
+       Songname:"曲目11",
+       mainSoundTrack:"主旋律轨道",
+       BPM:"BPM",
+       BR:"60",
+       imgSrcUnion1:'../../static/Union.svg',
+       imgSrc1:'../../static/image 1.svg',
+       imgSrcvc2:'../../static/Vector 2.svg',
+       imgSrcUnion2:'../../static/Union-1.svg',
+       imgSrc3:'../../static/image 3.svg',
+       imgSrc4:'../../static/image 4.svg',
+       imgSrc6:'../../static/image 6.svg',
+       aicw:"AI续写",
+       mtp:"乐理润色",
+       aim:"AI修改",
+       imgSrc2:'../../static/image 2.svg',
+       imgSrc5:'../../static/image 5.svg',
+    },
+    methods:{
+      Changecolor:function(){
+        this.isChosen=!this.isChosen;
+        console.log('click');
+  }
+    },
+  })
+</script>
+
+  </div>
+<style>
+  .chosen{
+    background:#FF0000;
+  }
+</style>
+</body>
+
+
+</html>

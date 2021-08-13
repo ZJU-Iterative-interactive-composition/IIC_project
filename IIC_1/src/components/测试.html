@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>div100</title>
+        <style>
+            dl{
+position: absolute;
+width: 0px;
+height: 10000px;
+left: 150px;
+top: 190px;
+
+border: 2px solid rgba(0, 0, 0, 0.5);
+            }
+        </style>
+        <script>
+            window.onload = function(){
+                var aDl = document.getElementsByTagName('dl');
+
+                var str = "";
+                for(var i = 0,j = 0;i<100;i++ ){
+                    str += "<dl>"+ "</dl>";
+                }
+                document.body.innerHTML = str;
+
+
+                for(var i = 0;i<aDl.length;i++){
+                    aDl[i].style.left = (i*70+150) + "px";
+                        aDl[i].style.top =190 + "px";
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+
